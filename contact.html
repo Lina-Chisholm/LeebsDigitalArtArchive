@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Contact information for Leebs Digital Art commissions" >
+	<title> Leebs Digital Art | Contact </title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/contact.css" >
+</head>
+
+<body>
+
+	<header>
+		<h1>Contact</h1> 
+    <input id="hamburger_checkbox" type="checkbox">
+        <label for="hamburger_checkbox" id="hamburger_menu">
+            <img id="hamburger_icon" src="gallery/hamburger_menu_icon/hamburger-menu.png"
+            alt="menu" width="24" height="18">
+            <span class="sr-only"></span>
+        </label>
+        <nav>
+           <a href="index.html">Home</a>
+            <a href="photos.html">Photos</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active_nav">Contact</a>
+		</nav>
+	</header>
+    <form id="contact_form" method ="post">
+		<label for="fname">First Name:</label>
+		<input type="text" id="fname" name="fname" autocomplete="given-name">
+		<label for="lname">Last Name:</label>
+		<input type="text" id="lname" name="lname" autocomplete="family-name">
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" autocomplete="email">
+		<label for="mobile">Mobile:</label>
+		<input type="tel" id="mobile" name="mobile" autocomplete="tel">
+		<label for="message">Message:</label>
+		<textarea id="message" name="message"></textarea>
+		<button type="submit" >Submit</button>
+		<button type="reset">Reset</button>
+	</form>
+
+    <footer>
+        <p> &copy; 2026 Art Commissions | All rights reserved | Angelina</p>      
+	</footer>
+
+</body>
+</html>
