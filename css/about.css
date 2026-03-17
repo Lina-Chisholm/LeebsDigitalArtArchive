@@ -1,0 +1,27 @@
+
+main > div {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    text-align: left;
+}
+
+main > div > h2 {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+
+main > div > p {
+    font-size: 18px;
+}
+
+main {
+    background-color: black;
+    display: grid;
+    grid-template-columns:auto;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
