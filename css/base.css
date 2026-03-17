@@ -6,6 +6,9 @@ body {
     font-family:'Courier New', Courier, monospace;
     margin: 0;
     background-color: #EFC3F5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 /*MOBILE FIRST VIEW*/
 header {
@@ -89,6 +92,7 @@ footer {
     width: 100%;
     font: 120% 'Helvetica';
     color: white;
+    margin-top: auto;
 }
 footer a {
     color: #333;
